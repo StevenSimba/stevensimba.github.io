@@ -1,0 +1,200 @@
+code[class*="language-"] {
+    white-space: pre-line;
+}
+
+code[class*="language-python"] {
+    white-space: pre;
+}
+
+.gatsby-highlight {
+    background-color: #1d1f21;
+    border-radius: 1em;
+    margin: 0.53m 0;
+    padding: 0.2em;
+    overflow: auto;
+}
+
+.wrap-content {
+    padding: 0px 20px 20px 20px;
+}
+
+.page-cover-image .page-image img {
+    object-fit: fill !important;
+    max-height: 450px !important;
+}
+
+
+/* Medium Devices, Desktops */
+
+@media only screen and (max-width: 992px) {
+    html {
+        line-height: 1.0;
+    }
+    .header-page .page-title {
+        font-size: 1.6rem;
+        color: #263959;
+    }
+    .content-box {
+        overflow: scroll;
+    }
+    .post {
+        margin: 0.5rem;
+        flex-direction: column;
+        .post-thumbnail {
+            width: 100%;
+            margin: 0.5rem 0.5rem 0 0.5rem;
+        }
+        .post-content {
+            width: 100%;
+            padding: 0 0.5rem 0.5rem 0.5rem;
+            .post-title {
+                margin: 0 0 5px;
+                text-align: center;
+                a {
+                    font-size: 21px;
+                }
+            }
+        }
+    }
+}
+
+
+/* Small Devices, Tablets */
+
+@media only screen and (max-width: 768px) {
+    html {
+        line-height: 1.0;
+    }
+    .katex-html {
+        overflow-x: scroll;
+    }
+    .sidebar {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+        padding: 10px;
+        background-color: #ffffff;
+        box-shadow: 0 1px 1px 0 rgba(31, 35, 46, .15);
+        footer {
+            margin-bottom: 10px;
+        }
+    }
+    .page-cover-image .page-image {
+        max-height: 300px !important;
+    }
+    .about {
+        text-align: center;
+        margin: 10px auto auto;
+        img {
+            width: 100px;
+            height: 100px;
+            border-radius: 100%;
+            margin-bottom: 10px;
+        }
+    }
+    .content-box {
+        width: 100%;
+        margin-left: 0;
+        padding: 20px 10px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: stretch;
+        .post .post-thumbnail {
+            margin-top: 0.5rem;
+            background-position: -30% 50%;
+        }
+        .post .post-content {
+            padding: 0 1rem;
+        }
+    }
+    .contact-title,
+    .copyright {
+        display: none;
+    }
+}
+
+
+/* Extra Small Devices, Phones */
+
+@media only screen and (max-width: 480px) {
+    /*custom */
+    .html {
+        line-height: 1.0;
+    }
+    .wrapper {
+        width: 100%;
+    }
+    .page-cover-image {
+        background-color: #EFE2BA;
+        width: 100%;
+        display: block;
+    }
+    .page-cover-image .page-image {
+        padding: 1px;
+        max-height: 200px !important;
+        object-fit: fill !important;
+    }
+    .header-page .page-date {
+        color: #C3073F;
+    }
+    .header-page .page-title {
+        line-height: 1.0;
+        font-size: 1.5rem;
+    }
+    .sidebar {
+        color: #19181A;
+        background-color: #EFE2BA;
+    }
+    .katex-display>.katex {
+        text-align: center;
+        overflow-x: auto;
+    }
+    .wrap-content {
+        text-align: left;
+        padding: 2px;
+    }
+    /* custom */
+    .content-box {
+        color: #19181A;
+        background-color: #EFE2BA;
+        padding: 14px;
+        margin: 0 auto;
+        display: inline-block;
+        overflow: hidden;
+    }
+    .page-content {
+        color: #19181A;
+        background-color: #EFE2BA;
+    }
+    .post {
+        width: 100%;
+        flex-direction: column;
+        justify-items: center;
+        .post-thumbnail {
+            margin: 0 auto;
+            object-fit: fill;
+            background-repeat: no-repeat;
+            background-size: 96% 96%;
+            background-position: 50% 50%;
+        }
+        .post-content {
+            width: 100%;
+            padding: 0.5rem;
+            margin-bottom: 0.5rem;
+            align-items: center;
+            .post-title {
+                margin: 0 0 5px;
+                line-height: 1.0;
+                a {
+                    font-size: 21px;
+                }
+            }
+            p {
+                margin-bottom: 2px;
+            }
+        }
+    }
+}
