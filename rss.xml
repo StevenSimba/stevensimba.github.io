@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Data Safari]]></title><description><![CDATA[Data, Web and Mobile Apps]]></description><link>https://stevensimba.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 21 Sep 2021 12:17:26 GMT</lastBuildDate><item><title><![CDATA[Linear Algebra Basics]]></title><description><![CDATA[Linear Algebra is a branch of mathematics that is widely applied in science and engineering. It is the study of linear sets of equations and…]]></description><link>https://stevensimba.github.io/linear-algebra-basics/</link><guid isPermaLink="false">https://stevensimba.github.io/linear-algebra-basics/</guid><pubDate>Sat, 07 Mar 2020 21:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Linear Algebra is a branch of mathematics that is widely applied in science and engineering. It is the study of linear sets of equations and their transformation properties.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Data Safari]]></title><description><![CDATA[Data, Web and Mobile Apps]]></description><link>https://stevensimba.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 21 Sep 2021 12:23:09 GMT</lastBuildDate><item><title><![CDATA[Linear Algebra Basics]]></title><description><![CDATA[Linear Algebra is a branch of mathematics that is widely applied in science and engineering. It is the study of linear sets of equations and…]]></description><link>https://stevensimba.github.io/linear-algebra-basics/</link><guid isPermaLink="false">https://stevensimba.github.io/linear-algebra-basics/</guid><pubDate>Sat, 07 Mar 2020 21:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Linear Algebra is a branch of mathematics that is widely applied in science and engineering. It is the study of linear sets of equations and their transformation properties.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;A &lt;strong&gt;&lt;em&gt;scalar&lt;/em&gt;&lt;/strong&gt; (n) is a real number, it is a 0D array and its rank is 0 e.g. 5&lt;/li&gt;
 &lt;li&gt;A &lt;strong&gt;&lt;em&gt;vector&lt;/em&gt;&lt;/strong&gt; (x) is a 1D array, it has a rank of 1 e.g. [1,2]&lt;/li&gt;
@@ -688,14 +688,14 @@ Out &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class
 		&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;&lt;strong&gt;App.js&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;require(&lt;code class=&quot;language-text&quot;&gt;katex/dist/katex.min-css&lt;/code&gt;)&lt;/p&gt;
-&lt;h2&gt;Jump to:&lt;/h2&gt;
+&lt;h3&gt;Jump to:&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;#code&quot;&gt;Python code in Markdown&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;#mark&quot;&gt;Pure Markdown syntax&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;#latex&quot;&gt;Latex in Markdown&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;#further&quot;&gt;Further reading&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2&gt;Python, javascript, html and bash &lt;a name=&quot;code&quot;&gt;&lt;/a&gt;code in Markdown&lt;/h2&gt;
+&lt;h3&gt;Python, javascript, html and bash &lt;a name=&quot;code&quot;&gt;&lt;/a&gt;code in Markdown&lt;/h3&gt;
 &lt;h3&gt;Python&lt;/h3&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;	&lt;span class=&quot;token keyword&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;add&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;x&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;y&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
 		&lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; x&lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt;y&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
