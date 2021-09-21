@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Data Safari]]></title><description><![CDATA[Data, web and mobile apps]]></description><link>https://stevensimba.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 17 Sep 2021 01:10:31 GMT</lastBuildDate><item><title><![CDATA[Linear Algebra Basics]]></title><description><![CDATA[Linear Algebra is a branch of mathematics that is widely applied in science and engineering. It is the study of linear sets of equations and…]]></description><link>https://stevensimba.github.io/linear-algebra-basics/</link><guid isPermaLink="false">https://stevensimba.github.io/linear-algebra-basics/</guid><pubDate>Sat, 07 Mar 2020 21:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Linear Algebra is a branch of mathematics that is widely applied in science and engineering. It is the study of linear sets of equations and their transformation properties.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Data Safari]]></title><description><![CDATA[Data, web and mobile apps]]></description><link>https://stevensimba.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 21 Sep 2021 11:41:56 GMT</lastBuildDate><item><title><![CDATA[Linear Algebra Basics]]></title><description><![CDATA[Linear Algebra is a branch of mathematics that is widely applied in science and engineering. It is the study of linear sets of equations and…]]></description><link>https://stevensimba.github.io/linear-algebra-basics/</link><guid isPermaLink="false">https://stevensimba.github.io/linear-algebra-basics/</guid><pubDate>Sat, 07 Mar 2020 21:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Linear Algebra is a branch of mathematics that is widely applied in science and engineering. It is the study of linear sets of equations and their transformation properties.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;A &lt;strong&gt;&lt;em&gt;scalar&lt;/em&gt;&lt;/strong&gt; (n) is a real number, it is a 0D array and its rank is 0 e.g. 5&lt;/li&gt;
 &lt;li&gt;A &lt;strong&gt;&lt;em&gt;vector&lt;/em&gt;&lt;/strong&gt; (x) is a 1D array, it has a rank of 1 e.g. [1,2]&lt;/li&gt;
@@ -682,22 +682,11 @@ Out &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class
 &lt;p&gt;&lt;strong&gt;Install&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;npm install --save gatsby-transformer-remark gatsby-remark-katex katex&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;gatsby-config.js&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;plugins:[
-{
-resolve: &lt;code class=&quot;language-text&quot;&gt;gatsby-transformer-remark&lt;/code&gt;,
-options: {
-plugins: [
-{
-resolve: &lt;code class=&quot;language-text&quot;&gt;gatsby-remark-katex&lt;/code&gt;,
-options: {
-strict: &lt;code class=&quot;language-text&quot;&gt;ignore&lt;/code&gt;
-}
-}
-]
-}
-}
-]&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;layout.js&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;jsx&quot;&gt;&lt;pre class=&quot;language-jsx&quot;&gt;&lt;code class=&quot;language-jsx&quot;&gt;plugins&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; resolve&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;gatsby-transformer-remark&lt;/span&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; options&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+		plugins&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; resolve&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;gatsby-remark-katex&lt;/span&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; options&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;	
+			strict&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;ignore&lt;/span&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;/span&gt;	&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+		&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;App.js&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;require(&lt;code class=&quot;language-text&quot;&gt;katex/dist/katex.min-css&lt;/code&gt;)&lt;/p&gt;
 &lt;h2&gt;Jump to:&lt;/h2&gt;
 &lt;ul&gt;
@@ -743,8 +732,9 @@ _italic_&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;h3&gt;Paragraph, blockquote and horizontal line&lt;/h3&gt;
 &lt;p&gt;paragraph 1&lt;/p&gt;
 &lt;p&gt;paragragh 2&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;paragrah &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;paragragh &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;
 
+paragraph &lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;
 blank line also means &lt;span class=&quot;token keyword&quot;&gt;break&lt;/span&gt; to &lt;span class=&quot;token keyword&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;line&lt;/span&gt; &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;blockquote&gt;
 &lt;p&gt;This is a blockquote&lt;/p&gt;
@@ -807,12 +797,13 @@ ___
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;Click a referenced &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;ref1&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; url
 
 &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;ref1&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; https&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;www&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;google&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;com &lt;span class=&quot;token string&quot;&gt;&quot;Google&quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;&lt;a href=&quot;#id-1&quot;&gt;Title Link has no spaces (hyphen)&lt;/a&gt;&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;Title Link has no &lt;span class=&quot;token function&quot;&gt;spaces&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;hyphen&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;#id&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;a href=&quot;#id-1&quot;&gt;Title Link (hyphen)&lt;/a&gt;&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;Title &lt;span class=&quot;token function&quot;&gt;Link&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;hyphen&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;#id&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;nav&gt; 
 	&lt;a href=&quot;https://www.google.com&quot;&gt; google &lt;/a&gt; |
 	&lt;a href=&quot;https://www.amazon.com&quot;&gt; amazon &lt;/a&gt;
 &lt;/nav&gt;
+&quot;&quot;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;html&quot;&gt;&lt;pre class=&quot;language-html&quot;&gt;&lt;code class=&quot;language-html&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;nav&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt; 
 	&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;a&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;href&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;https://www.google.com&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt; google &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;a&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt; |
 	&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;a&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;href&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;https://www.amazon.com&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt; amazon &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;a&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
@@ -859,6 +850,7 @@ ___
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
+&lt;p&gt;&quot;&quot;&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt;Key &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt;Value&lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; Type &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt;
 &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;--&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;--&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;--&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;--&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;--&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt;
 &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt;name   &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt;Simba&lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; str &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt;
